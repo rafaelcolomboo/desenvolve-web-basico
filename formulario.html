@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+</head>
+<body>
+    <div class="container">
+        <h1>Pesquisa de Satisfação</h1>
+        <form>
+          
+            <div class="section">
+                <h2>Dados Pessoais</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="section">
+                <h2>Pesquisa</h2>
+                
+                <label>1. Como você avalia nosso atendimento?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="atendimento" value="excelente" required> Excelente</label>
+                    <label><input type="radio" name="atendimento" value="bom"> Bom</label>
+                    <label><input type="radio" name="atendimento" value="regular"> Regular</label>
+                    <label><input type="radio" name="atendimento" value="ruim"> Ruim</label>
+                </div>
+
+                <label>2. Você recomendaria nossos serviços?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="recomendacao" value="sim" required> Sim</label>
+                    <label><input type="radio" name="recomendacao" value="nao"> Não</label>
+                </div>
+
+                <label for="satisfacao">3. Qual o nível de satisfação geral com nossos serviços?</label>
+                <select id="satisfacao" name="satisfacao" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="muito_satisfeito">Muito satisfeito</option>
+                    <option value="satisfeito">Satisfeito</option>
+                    <option value="neutro">Neutro</option>
+                    <option value="insatisfeito">Insatisfeito</option>
+                    <option value="muito_insatisfeito">Muito insatisfeito</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="compartilhar" required> Autorizo compartilhar minha resposta com terceiros</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
