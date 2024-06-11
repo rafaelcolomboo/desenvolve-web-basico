@@ -3,6 +3,48 @@
 .fonte { color: #C5C6C7;}
 .destaque {color: #66FCF1;}
 */
+
+.main footer{
+    margin: 4%;
+}
+.main footer a {
+border: solid 2px #C5C6C7;
+padding: 0.5em;
+display: inline-block;
+}
+
+aside ul {
+list-style-type: none;
+}
+aside ul li {
+    margin: 1em;
+text-align: center;
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+#zen-intro {
+    height: 550px;
+}
+#design-archives {
+    display: none;
+}
+#zen-intro header {
+    background-color: #C5C6C7;
+    color: #1E1E2F;
+}
+#zen-intro header h1, #zen-intro header h2{
+display: inline-block;
+}
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
 html {
     background  :#1E1E2F;
     fonte : #C5C6C7;
