@@ -30,12 +30,6 @@ h3{
     font-size: 1.2rem;
     color:#1f295c
 }
-a{
-    color: #1f295c;
-}
-a:hover{
-    color:#1f295c;
-}
 .summary{
     text-align: right;
 }
@@ -93,7 +87,7 @@ aside ul li{
 }
 #design-selection{
     position: absolute;
-    top: 480px;
+    top: 455px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -126,4 +120,23 @@ border-top: #1E1E2F solid 1px;
 }
 .participation h3 {
     align-self: center;
+}
+a{
+    color: #66FCF1;
+}
+a:hover {
+  color: #66fcf280;
+}
+.main p:first-of-type:first-letter{
+ font-size: 3em;
+ font-family: 'Times New Roman', Times, serif;
+ float: left;
+}
+.design-selection li {
+border-top: #1E1E2F solid 1px;
+padding-top: 5px; 
+}
+.design-selection li:last-of-type {
+    border-bottom: #1E1E2F solid 1px;
+    padding-bottom: 5px;
 }
