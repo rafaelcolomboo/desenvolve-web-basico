@@ -140,3 +140,39 @@ padding-top: 5px;
     border-bottom: #1E1E2F solid 1px;
     padding-bottom: 5px;
 }
+@media  screen and ( max-width: 768px) {
+    #design-selection {
+        position: static;
+        width: 100% ;
+    }
+    .explanation {
+border-right: none;
+width: 100%;
+    }
+    #zen-intro {
+height: auto;
+    }
+    .participation {
+        flex-direction: column;
+    }
+    p {
+        text-indent: 0 ;
+    }
+}
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #zen-intro header {
+background-color: #C5C6C7;
+color: #1E1E2F;
+    }
+    #design-selection {
+        position: static;
+        width: 100% ;
+    }
+    .explanation {
+border-right: none;
+width: 100%;
+}
+}
