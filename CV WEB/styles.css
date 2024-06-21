@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte para o corpo do texto */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo neutra */
+    color: #333; /* Cor do texto */
+}
+
+/* Navegação */
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Menu fixo no topo */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estrutura principal */
+section {
+    padding: 60px 20px; /* Espaçamento para compensar o menu fixo */
+    margin: 20px 0;
+}
+
+#apresentacao img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; /* Foto circular */
+    width: 150px; /* Ajuste conforme necessário */
+    height: 150px; /* Ajuste conforme necessário */
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Fonte para títulos */
+    color: #333; /* Cor dos títulos */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+/* Listas não ordenadas */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+}
